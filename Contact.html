@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshBizz</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="./Contact.css">
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .navbars {
+        background-color: orange;
+        padding: 16px 0;
+    }
+
+    .fresh-bizz {
+        color: white;
+        margin-left: 10px;
+
+    }
+
+    .fresh-bizz:hover {
+        color: blue;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid navbars">
+           
+            <div class="freshFizz">
+                <a class="navbar-brand fresh-bizz" href="index.html">FRESHBIZZ EXIM PVT LTD
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            COMPANY
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"
+                                    href="profile.html">About Us</a></li>
+                        
+
+                            <li><a class="dropdown-item" href="Facility.html">Facilities</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            PRODUCTS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Perishable.html">Perishable</a></li>
+                            <li><a class="dropdown-item" href="NonPerishable.html">Non-Perishable</a></li>
+                        </ul>
+
+                    <li class="nav-item">
+                        <a href="Contact.html" class="nav-link " aria-disabled="true">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="main">
+        <h3>CONTACTS </h3>
+        <div class="mapss">
+            <div style="border-bottom:1px solid gray; margin:20px 0px">
+                <!-- Google Map Copied Code -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.8178724133227!2d77.35076548885499!3d28.665171500000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb1704a8d63f%3A0x14e568a21b24a888!2sVEGO!5e0!3m2!1sen!2sin!4v1698907208221!5m2!1sen!2sin"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="contains">
+            <div class="left-side">
+                <h2>CONTACTS </h2>
+                <p>For More Informations</p>
+            </div>
+            <div class="right-side">
+                <p style="border-bottom:1px solid gray">
+                    Located in the heart of <span style> Ghaziabad </span> Fruit and Vegetable Market, FRESHBIZZ Company is ideally located for you to visit us. We would be delighted to show you around our
+                    brand new head office and storage and fleet delivery facilities, so you can see for yourself just
+                    how we can deliver every need you and your clients may have.<br><br>
+
+                    FRESHBIZZ EXIM PVT LTD
+                    Shop No. SB-35, <br>Naveen sabzi Mandi,<br> Sahibabad, Ghaziabad,<br> Uttar Pradesh
+                     201010
+                    <br><br>
+                    Mob: +91 7303445604 <br>
+                    Mob: +91 7456907384 <br>
+
+
+                </p>
+                <form onsubmit="sendEmail() ; reset(); return false;">
+                    <label class="label" htmlFor="name">Name:</label><br>
+                    <input type="text" name="name" id="name"  class="input" required/><br>
+                    <label class="label" htmlFor="company">Company:</label><br>
+                    <input type="text" name="company" id="company" class="input"  /><br>
+
+                    <label class="label" htmlFor="email">Email:</label><br>
+                    <input type="email" name="email" id="email" class="input"  required /><br>
+                    <label class="label" htmlFor="phone">
+                        Phone:</label><br>
+                    <input type="number" name="phone" id="phone" class="input"  required /><br>
+                    <label for="message" class="label">Notes</label>
+                    <textarea name="inputarea"  cols="30" rows="10" id="message" required class="input"></textarea><br>
+                    <button type="submit" class="btn" onsubmit="sendEmail(); reset(); return false;">SEND</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="first-foot footerss">
+                <h2>THE COMPANY</h2>
+                <ul>
+                     <div class="sameline" style="display: flex;">
+                        <svg style="margin-top: 4px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                          </svg>  <li><a href="profile.html">About Us</a></li>
+                        </div>
+                     <div class="sameline" style="display: flex;">
+                        <svg style="margin-top: 4px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                          </svg>  <li><a href="Facility.html">Facility</a></li>
+                     </div>
+                </ul>
+            </div>
+            <div class="sec-foot footerss">
+                <h2>PRODUCTS</h2>
+                <ul>
+                    <div class="sameline" style="display: flex;">
+                        <svg style="margin-top: 4px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                          </svg>  <li><a href="Perishable.html">Perishable</a></li>
+                     </div>
+                     <div class="sameline" style="display: flex;">
+                        <svg style="margin-top: 4px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                          </svg>  <li><a href="NonPerishable.html">Non-Perishable</a></li>
+                     </div>
+                </ul>
+            </div>
+            <div class="third-foot footerss">
+                <div class="sameline" style="display: flex;">
+                    <svg style="margin-top: 4px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                      </svg>  <li><a href="#">Contact</a></li>
+                 </div>
+
+            </div>
+
+        </div>
+    </footer>
+</body>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function sendEmail(){
+  try {
+    Email.send({
+    SecureToken : "0e7eff4a-771c-454e-8a78-6f1eac2c33a6",
+    To : 'namanchaudhary695@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New Contact Form Enquiry",
+    Body : "Name: "+document.getElementById("name").value 
+    +"<br> Email: "+document.getElementById("email").value 
+    +"<br> Phone no.: "+ document.getElementById("phone").value 
+    + "<br> Message :"+document.getElementById("message").value 
+    +"<br> Company :"+ document.getElementById("company").value
+}).then(
+  message => alert("Message Send Successfully")
+);
+  } catch (error) {
+    console.log(error);
+  }
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</html>
